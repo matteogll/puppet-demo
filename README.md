@@ -14,16 +14,18 @@ Install Vagrant for your system: https://www.vagrantup.com/
 
 ## Start Vagrant Machine
 
+* git clone https://github.com/matteogll/puppet-demo.git`
 * Start the virtual machine by using `vagrant up` command (from the project root)
 * SSH into the VM: `vagrant ssh`
-* The shared folder is: `/vagrant`
+* The shared folder of the guest OS is: `/vagrant`
 
 # List of demos
 ## Demo1
 Use Puppet to install and customize Nginx.
 
-* vagrant ssh
-* puppet apply -v -e "include demo1"
+* `vagrant ssh`: enter into the guest OS
+* get root privileges: `sudo su`
+* `puppet apply -v -e "include demo1"`
 * go to http://localhost:7080
 
 # Note
