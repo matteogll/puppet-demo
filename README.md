@@ -1,6 +1,6 @@
 # Puppet Demo
 
-Simple demo of Puppet. 
+Some Puppet demos in Ubuntu environment. 
 This demo uses Vagrant in order to setup a ready to use development environment.
 
 # Author
