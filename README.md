@@ -25,7 +25,7 @@ Use Puppet to install and customize Nginx.
 
 * `vagrant ssh`: enter into the guest OS
 * get root privileges: `sudo su`
-* puppet apply -v -e "include demo1"`
+* puppet apply -v -e "include demo1"
 * go to http://localhost:7080
 
 # Note
